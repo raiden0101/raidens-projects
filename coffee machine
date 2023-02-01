@@ -1,0 +1,63 @@
+#include <iostream>
+#include <chrono>
+#include <thread>
+
+
+int main () {
+std:: cout << "What Coffee would you like?" << std:: endl;
+std:: string coffee;
+std:: cin >> coffee;
+
+
+ if (coffee == "Espresso"){
+ std:: cout << "please wait..." << std:: endl;
+ std::this_thread::sleep_for(std::chrono::seconds(2));
+ std:: cout << "enjoy!";
+ }
+ if (coffee == "espresso"){
+ std:: cout << "please wait..." << std:: endl;
+ std::this_thread::sleep_for(std::chrono::seconds(2));
+ std:: cout << "enjoy!";
+ }
+ else if (coffee == "Cappucino"){
+ std:: cout << "please wait..." << std:: endl;
+ std::this_thread::sleep_for(std::chrono::seconds(2));
+ std:: cout << "enjoy!";
+ }
+ else if (coffee == "Cappucino"){
+ std:: cout << "please wait..." << std:: endl;
+ std::this_thread::sleep_for(std::chrono::seconds(2));
+ std:: cout << "enjoy!";
+ }
+ else if (coffee == "latte"){
+ std:: cout << "please wait..." << std:: endl;
+ std::this_thread::sleep_for(std::chrono::seconds(2));
+ std:: cout << "enjoy!";
+ }
+else if (coffee == "Mocha"){
+ std:: cout << "please wait..." << std:: endl;
+ std::this_thread::sleep_for(std::chrono::seconds(2));
+ std:: cout << "enjoy!";
+ }
+ else if (coffee == "mocha"){
+ std:: cout << "please wait..." << std:: endl;
+ std::this_thread::sleep_for(std::chrono::seconds(2));
+ std:: cout << "enjoy!";
+ }
+ else if (coffee == "Espresso"){
+ std:: cout << "please wait..." << std:: endl;
+
+ std:: cout << "enjoy!";
+ }
+ else if (coffee == "espresso"){
+ std:: cout << "please wait..." << std:: endl;
+; std::this_thread::sleep_for(std::chrono::seconds(2));
+ std:: cout << "enjoy!";
+ }
+
+else {
+    std:: cout << "Sorry, we dont serve that.";
+}
+
+return 0;
+}
